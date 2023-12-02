@@ -1,0 +1,4 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit"
+"org.shvetsov.virtualthreadbenchmark.HttpClientServiceTest.restClientBenchmark","ss",500,3,"1,020359","0,289644","s/op"
+"org.shvetsov.virtualthreadbenchmark.HttpClientServiceTest.restTemplateBenchmark","ss",500,3,"1,058746","1,562807","s/op"
+"org.shvetsov.virtualthreadbenchmark.HttpClientServiceTest.webClientBenchmark","ss",500,3,"1,013028","0,010021","s/op"
