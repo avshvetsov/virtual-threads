@@ -16,7 +16,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @State(Scope.Benchmark)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = VirtualThreadBenchmarkApplication.class)
-@BenchmarkMode(Mode.SingleShotTime)
+@BenchmarkMode(Mode.AverageTime)
 public class HttpClientServiceTest {
 
     private static String HTTP_CLIENTS_HOST;
@@ -35,7 +35,7 @@ public class HttpClientServiceTest {
     }
 
     @ParameterizedTest
-    @ValueSource(ints = {500})
+    @ValueSource(ints = {10, 100, 500, 1000})
     public void executeJmhRunner(int threads) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include("\\." + this.getClass().getSimpleName() + "\\.")

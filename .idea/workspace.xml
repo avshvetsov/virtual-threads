@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca7705c-56f9-435a-ae9c-88cfe3fab9c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/src/main/java/org/shvetsov/virtualthreadbenchmark/HttpClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/src/main/java/org/shvetsov/virtualthreadbenchmark/VirtualThreadBenchmarkApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/src/test/java/org/shvetsov/virtualthreadbenchmark/HttpClientServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/src/test/java/org/shvetsov/virtualthreadbenchmark/VirtualThreadBenchmarkApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-disabled-10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-disabled-100.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-disabled-1000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-disabled-500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-enabled-10.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-enabled-100.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-enabled-1000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-enabled-2000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/benchmark/virtual-thread-enabled-500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking-server/src/main/java/org/shvetsov/blockingserver/BlockingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking-server/src/main/java/org/shvetsov/blockingserver/BlockingServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocking-server/src/test/java/org/shvetsov/blockingserver/BlockingServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/src/main/java/org/shvetsov/httpclientsapplication/HttpClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/src/main/java/org/shvetsov/httpclientsapplication/HttpClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/src/main/java/org/shvetsov/httpclientsapplication/HttpClientsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-clients/src/test/java/org/shvetsov/httpclientsapplication/HttpClientsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="cca7705c-56f9-435a-ae9c-88cfe3fab9c3" name="Changes" comment="Setup and execute comparing RestTemplate vs RestClient vs WebClient in java 21 with virtual threads">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/src/test/java/org/shvetsov/virtualthreadbenchmark/HttpClientServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/src/test/java/org/shvetsov/virtualthreadbenchmark/HttpClientServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-clients/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/http-clients/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +19,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2YzallVwzFBsaqpJRecu4kqygT9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "C:/Users/shvetsov/IdeaProjects/SelfDev/virtual-threads/blocking-server/src/main/resources",
+    "last_opened_file_path": "C:/Users/shvetsov/IdeaProjects/SelfDev/virtual-threads",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -77,7 +53,7 @@
       <recent name="C:\Users\shvetsov\IdeaProjects\SelfDev\virtual-threads\blocking-server\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpClientServiceTest">
+  <component name="RunManager" selected="Application.HttpClientsApplication">
     <configuration name="BlockingServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.shvetsov.blockingserver.BlockingServerApplication" />
       <module name="virtual-thread-blocking-server" />
@@ -121,9 +97,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpClientServiceTest" />
         <item itemvalue="Application.HttpClientsApplication" />
         <item itemvalue="Application.BlockingServerApplication" />
+        <item itemvalue="JUnit.HttpClientServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +112,15 @@
       <option name="presentableId" value="Default" />
       <updated>1701531015350</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setup and execute comparing RestTemplate vs RestClient vs WebClient in java 21 with virtual threads">
+      <option name="closed" value="true" />
+      <created>1701532385920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701532385920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup and execute comparing RestTemplate vs RestClient vs WebClient in java 21 with virtual threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup and execute comparing RestTemplate vs RestClient vs WebClient in java 21 with virtual threads" />
   </component>
 </project>
